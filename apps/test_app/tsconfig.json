@@ -5,8 +5,7 @@
     "baseUrl": ".",
     "rootDir": "src/",
     "moduleResolution": "Bundler",
-    "isolatedModules": true,
-    "types": ["mocha"]
+    "isolatedModules": true
   },
   "include": [
     "src/**/*.ts"
