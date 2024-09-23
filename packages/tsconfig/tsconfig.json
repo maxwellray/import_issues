@@ -1,0 +1,16 @@
+{
+  "extends": "./base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "moduleResolution": "Bundler",
+    "isolatedModules": true,
+    "outDir": "dist/",
+    "paths": {
+      "./*": ["./dist/*.js"],
+      "./base.json": ["./base.json"],
+    }
+  },
+  "include": ["esbuild.config.ts"],
+  "exclude": ["node_modules"]
+}
